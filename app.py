@@ -6,6 +6,7 @@ from botocore.exceptions import ClientError
 import json
 from loguru import logger
 
+
 app = flask.Flask(__name__)
 table = None
 
